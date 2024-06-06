@@ -24,6 +24,15 @@ function convert(keyArr, valueArr){
         - Step 2: Define a for-loop that run based on keyArr's length.
         - Step 3: Within the for-loop, add the key and value to the local scoped object.
         - Step 4: Write a return statement to return the object literal after the for-loop code block.
+        this function will convert when u key in keyArr and return the respective valueArr, print obj with the 
+        bookIdArr and bookTitle will return as below:
+        { 
+        "NLB1": "Lord of the Rings", 
+        "NLB2": "Programming for Dummies", 
+        "NLB3": "Introduction to Software Testing", 
+        "NLB4": "How to be a Software Developer" 
+        }
+        use the printByKey function to print out only the specific pair output you want. 
     */
    let obj = {};
    for (let i = 0; i < keyArr.length; i++) {
