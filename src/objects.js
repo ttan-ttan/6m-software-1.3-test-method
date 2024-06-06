@@ -15,7 +15,10 @@ console.log("I am born in", person.yearOfBirth);
 for(let key in person){
     console.log("key is", key, "and value is", person[key]);
 }
-
+//template literals
+for (let key in person){
+    console.log(`key is ${key} and value is ${person[key]}`)
+}
 /*Class discussion
 Break out into groups and discussion what are the following:
     1. Object Destructuring
@@ -32,3 +35,11 @@ Exercise:
     d. coursesOffered - Array containing 3 Strings
 2. Print in the console the following sentence using the "school object" - "Welcome to <name> and we offer <coursesOffered>
 */
+const school = {
+    name: "NTU",
+    yearEstablished: 1955,
+    isActive: true,
+    courseOffered: ["Java","CSS", "HTML"]
+};
+
+console.log(`welcome to ${school.name} and we offer ${school.courseOffered.join(", ")}.`);

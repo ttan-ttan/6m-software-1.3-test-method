@@ -8,7 +8,7 @@ console.log("defaults", defaults);
 // Retrieve the first element in array
 console.log("first element value is", defaults[0]);
 
-// Looping an array
+// Looping an array    
 for(let i=0 ;i<defaults.length; i++){
     console.log("value of i is", i, "and the value is", defaults[i]);
 }
@@ -23,6 +23,15 @@ Break out into groups and research how each of the array methods can be used and
     5. splice
     6. slice
 */
+let numb = [1,2,3];
+numb.push(4);
+console.log(numb);
+
+let last = numb.pop();
+console.log(last);
+console.log(numb);
+
+
 
 //Exercise:
 /*

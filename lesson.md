@@ -32,19 +32,18 @@ Source: https://www.javatpoint.com/software-engineering-software-development-lif
 
 ### Functional Testings
 
-1. *Unit Test* - An isolation testing targeting at the smallest piece of logic in the software.
-2. *Integration Test* - Testing multiple software modules together as a group.
-3. *Acceptance Test* - Testing the functionality of the software by end users before launch.
+1. *Unit Test* - An isolation testing targeting at the smallest piece of logic in the software. (eg every link in the website can access or not)
+2. *Integration Test* - Testing multiple software modules together as a group. (eg: multiple field input and submit can proceed or not)
+3. *Acceptance Test* - Testing the functionality of the software by end users before launch. (eg: business owner test to his satisfaction)
 
 ### Non-functional Testings
 
 1. *Performance Test* - A non functional test to determine the stability, speed, responsiveness and resilience of the system.
-    1. Load Test - Simulate an increasing amount of traffics/requests sent to the system.
-    1. Stress Test - Determine the peak load and/or how much requests the system can receive.
-    1. Endurance Test - Determine the behaviour of the system at the peak load over time.
+    1. Load Test - Simulate an increasing amount of traffics/requests sent to the system. (including memory usage)
+    1. Stress Test - Determine the peak load and/or how much requests the system can receive.     1. Endurance Test - Determine the behaviour of the system at the peak load over time.
 1. *Security Test* -
-    1. Dependency Vulnerabilities - Scanning for vulnerabilities introduced by dependencies.
-    1. Secrets & Data Storage Strategy - Determine how secure are secrets and sensitive data being stored.
+    1. Dependency Vulnerabilities - Scanning for vulnerabilities introduced by dependencies.(eg:  libraries or framework used by the program - got any vulnabirities or not)
+    1. Secrets & Data Storage Strategy - Determine how secure are secrets and sensitive data being stored. 
 ---
 
 ## Part 3 - Group Discussion
